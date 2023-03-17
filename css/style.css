@@ -1,0 +1,20 @@
+/*Posicion mapa*/
+#mapa { 
+    position: absolute;
+    top: 100px;
+    right: 300px; 
+    width: 350px;
+    height: 300px;
+  }
+
+  /*Boton de contacto*/
+  .botonContacto {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #4c87af;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
