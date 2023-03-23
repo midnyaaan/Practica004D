@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
 <style>
     h3{
         width: 620px;
@@ -21,6 +21,24 @@
         <h2>CONTACTO</h2>
 
     </div>
+
+    <header>
+        
+        <nav>
+        <ul>
+           
+        <li><a href="Nosotros.html">NOSOTROS</a></li>
+        <li><a href="Contacto.html">CONTACTO</a></li>
+        <li><a href="Inicio.html">INICIO</a></li>
+        <li><a href="perros.html">PERROS</a></li>
+        <li><a href="Gatos.html">GATOS</a></li>
+        
+        </ul>
+        </ul>
+          
+      </nav>
+        
+  </header>   
 
     <div style="text-align: left;">
         
@@ -42,22 +60,21 @@
              
       </div>
 
-      <div style="text-align: right;">
-        <h2 style="text-align: justify; padding: 22px">
-
-            <form action="Contacto.html">
-
-                <h4>Si tienes alguna duda no dudes en escribirnos</h4>
-                <input type="text" name="Nombre" required>
-                <input type="email" name="Correo" required>
-                <textarea name="ACA se pueden colocar comentarios" id="" cols="30" rows="10" required>
-
-                </textarea>
-
-
-
-
-            </form>
+      <form>
+		<div class="form-group">
+			<label for="name">Nombre:</label>
+			<input type="text" id="name" name="name" required>
+		</div>
+		<div class="form-group">
+			<label for="email">Correo electrónico:</label>
+			<input type="email" id="email" name="email" required>
+		</div>
+		<div class="form-group">
+			<label for="comment">Comentario:</label>
+			<textarea id="comment" name="comment" required></textarea>
+		</div>
+		<button type="submit">Enviar</button>
+	</form>
         </h2>
     </div>
 
