@@ -203,7 +203,6 @@
   /*MEDIA QUERY*/
   @media (max-width: 768px){
       
-<<<<<<< HEAD
       .footer-container{
           padding: 2rem;
           flex-direction: column;
@@ -243,32 +242,4 @@
           align-items: flex-start;
           border-bottom: none;
       }
-  
-=======
-    .image-container {
-        position: relative;
-        width: 100%;
-        height: 0;
-        padding-bottom: 50%; /* Establece el alto relativo a la anchura */
-      }
-      
-      .image-container img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        
-        object-fit: cover; /* Establece la imagen para cubrir todo el contenedor */
-      }
-      
-      .text-overlay {
-        position: absolute;
-        top: 50%;
-        left: 25%;
-        transform: translate(-15%, -15%);
-        color: #000000;
-        font-size: 1.5em;
-        text-align: center;
-      }
->>>>>>> 36c6c9820cc7464441751f89a2dcbf5e694868d2
+  }
