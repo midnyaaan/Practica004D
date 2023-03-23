@@ -180,7 +180,7 @@
   .social-link{
       height: 100%;
       width: 30px;
-      background-image: url(FacebookBlanco.png);
+      background-image: url(fotos/footer/FacebookBlanco.png);
       background-size: 70%;
       background-position: center;
       margin-right: 1rem;
@@ -192,11 +192,11 @@
   }
   
   footer .social-link:nth-of-type(2){
-      background-image: url(TwitterBlanco.png);
+      background-image: url(fotos/footer/TwitterBlanco.png);
   }
   
-  footer .social-link:nth-of-type(3){/*Nth of type inside that container*/
-      background-image: url(LinkedinBlanco.png);
+  footer .social-link:nth-of-type(3){
+      background-image: url(fotos/footer/InstagramBlanco.png);
   }
   
   
