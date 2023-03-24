@@ -3,10 +3,11 @@
   position: absolute;
   top: 0;
   right: 0; 
-  width: 400px;
-  height: 150px;
-  padding: 90px;
+  width: 450px;
+  height: 180px;
+  padding: 160px;
   margin: 20px;
+  left: 1000px;
   }
   
 
@@ -247,5 +248,11 @@
   .centrado{
     display: flex;
     justify-content: center;
+    align-items: center;
+  }
+
+  .izquierda{
+    display: flex;
+    justify-content: flex-start ;
     align-items: center;
   }
