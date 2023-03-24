@@ -35,7 +35,32 @@
     
     margin: 20;
     padding: 70px;
+  }
 
-   
+/*crear tabla*/ 
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  td {
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+  /*nosotros*/ 
+  .contenedor {
+    display: flex;
+    align-items: center;
+  }
+  
+  p {
+    flex: 1;
+  }
+  
+  img {
+    margin-left: 20px;
   }
   
