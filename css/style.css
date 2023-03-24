@@ -257,3 +257,8 @@
     align-items: center;
   }
 
+  .justificado{
+    width: 620px;
+    padding: 0px;
+    margin: 25px;
+  }
