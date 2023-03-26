@@ -2,7 +2,7 @@
       
 .image-container {
     position: relative;
-    width: 100%;
+    width: 97%;
     height: 50%;
     padding-bottom: 40%; /* Establece el alto relativo a la anchura */
   }
@@ -41,13 +41,13 @@
   table {
     width: 100%;
     border-collapse: collapse;
-    border: 1px solid black;
+    border: 0px solid black;
     text-align: center;
   }
   
   td {
     padding: 10px;
-    border: 1px solid black;
+    border: 0px solid black;
   }
 
   /*nosotros*/ 
