@@ -38,6 +38,7 @@ background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+
     background-color: #a17fe0;
     color: #000000;
     padding: 10px;
+    
     }
     
     nav ul {
@@ -283,4 +284,19 @@ background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+
     color: white;
    
   }
+
   
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  
+  .flex-item {
+    background-color: white;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+  }
